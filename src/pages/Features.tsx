@@ -1,7 +1,6 @@
-
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Search, ShoppingBag, RefreshCw, Truck, Shield, Repeat, MessageSquare, Zap, Unlock } from 'lucide-react';
+import { Search, ShoppingBag, RefreshCw, Truck, Shield, Repeat, MessageSquare, Zap, Unlock, Check, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import PageTransition from '@/components/PageTransition';
 import Header from '@/components/Header';
