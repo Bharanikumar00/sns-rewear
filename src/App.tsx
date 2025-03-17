@@ -28,11 +28,12 @@ const App = () => {
           <AnimatePresence mode="wait">
             <Routes>
               <Route path="/login" element={<Login />} />
-              <Route path="/" element={<Home />} />
+              <Route path="/home" element={<Home />} />
               <Route path="/features" element={<Features />} />
               <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/pricing" element={<Pricing />} />
               <Route path="/ai-feature" element={<AIFeature />} />
+              <Route path="/" element={<Navigate to="/login" replace />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
